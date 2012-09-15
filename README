@@ -1,1 +1,35 @@
-Simple fullscreen
+<h1>
+    <a name="usage" class="anchor" href="#usage">
+        <span class="mini-icon mini-icon-link"></span>
+    </a>
+    USAGE
+</h1>
+<code>$('.click_fullscreen').JQFullscreen();</code>
+<h1>
+    <a name="features" class="anchor" href="#features">
+        <span class="mini-icon mini-icon-link"></span>
+    </a>
+    FEATURES
+</h1>
+<ul>
+    <li>
+        <code>fullwidth</code>
+        default fullwidth is <code>100%</code>  you can add custom width
+    </li>
+    <li>
+        <code>fullheight</code>
+        default fullheight is <code>100%</code>  you can add custom height
+    </li>
+    <li>
+        <code>leftpos</code>
+        default left postion is <code>0</code>  you can add custom left position
+    </li>
+    <li>
+        <code>toppos</code>
+        default top postion is <code>0</code>  you can add custom top position
+    </li>
+    <li>
+        <code>fullscreenpanel</code>
+        you can assign your fullwidth panel class or id using <code>fullscreenpanel</code>
+    </li>
+</ul>
