@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full Screen Plugin</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="js/fullscreen.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.click_fullscreen').JQFullscreen({
+                fullscreenpanel:'.fullscreen'
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css">
+</head>
+<body>
+    <div id="firstpanel"></div>
+    <div id="secondpanel" class="fullscreen">
+        <a href="#" class="click_fullscreen">Full Screen</a>
+    </div>
+    <div id="thirdpanel"></div>
+</body>
+</html>

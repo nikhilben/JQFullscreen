@@ -1,0 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#firstpanel {
+    background: #e1e1e1;
+}
+#secondpanel {
+    background: #1e1e1e;
+}
+#thirdpanel {
+    background: #f00;
+}
